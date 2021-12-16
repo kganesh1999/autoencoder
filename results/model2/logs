@@ -1,0 +1,28 @@
+Torch device selected:  cpu
+encoder_conv.0.weight : 8x1x3x3 = 72
+encoder_conv.0.bias : 8
+encoder_conv.3.weight : 16x8x3x3 = 1152
+encoder_conv.3.bias : 16
+decoder_conv.0.weight : 16x16x3x3 = 2304
+decoder_conv.0.bias : 16
+decoder_conv.3.weight : 16x8x3x3 = 1152
+decoder_conv.3.bias : 8
+decoder_conv.5.weight : 8x1x3x3 = 72
+decoder_conv.5.bias : 1
+Number of trainable parameters = 4801
+--------------------------Training the autoencoder--------------------------
+Epoch:1/10 - Loss: 0.30032
+Epoch:2/10 - Loss: 0.23414
+Epoch:3/10 - Loss: 0.22122
+Epoch:4/10 - Loss: 0.21414
+Epoch:5/10 - Loss: 0.20951
+Epoch:6/10 - Loss: 0.20600
+Epoch:7/10 - Loss: 0.20368
+Epoch:8/10 - Loss: 0.20170
+Epoch:9/10 - Loss: 0.20025
+Epoch:10/10 - Loss: 0.19899
+--------------------------Training finished--------------------------
+--------------------------Model Evaluation--------------------------
+Average test loss: 0.19633
+--------------------------Visualizing from test samples--------------------------
+*****************************Check directory for visualization********************************

@@ -1,0 +1,26 @@
+Torch device selected:  cpu
+encoder_fc.0.weight : 256x784 = 200704
+encoder_fc.0.bias : 256
+encoder_fc.2.weight : 128x256 = 32768
+encoder_fc.2.bias : 128
+decoder_fc.0.weight : 256x128 = 32768
+decoder_fc.0.bias : 256
+decoder_fc.2.weight : 784x256 = 200704
+decoder_fc.2.bias : 784
+Number of trainable parameters = 468368
+--------------------------Training the autoencoder--------------------------
+Epoch:1/10 - Loss: 0.36339
+Epoch:2/10 - Loss: 0.29718
+Epoch:3/10 - Loss: 0.28795
+Epoch:4/10 - Loss: 0.28342
+Epoch:5/10 - Loss: 0.28077
+Epoch:6/10 - Loss: 0.27696
+Epoch:7/10 - Loss: 0.27512
+Epoch:8/10 - Loss: 0.27425
+Epoch:9/10 - Loss: 0.27364
+Epoch:10/10 - Loss: 0.27307
+--------------------------Training finished--------------------------
+--------------------------Model Evaluation--------------------------
+Average test loss: 0.27199
+--------------------------Visualizing from test samples--------------------------
+*****************************Check directory for visualization********************************
